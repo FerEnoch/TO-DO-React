@@ -1,0 +1,60 @@
+.column {
+  background: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: #fff;
+  border: dashed transparent 4px;
+  width: 33%;
+  max-width: 20rem;
+  margin: 0 .5rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper button {
+  all: unset;
+  color: black;
+  background-color: white;
+  padding: .5rem;
+  border-radius: 6px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.titleWrapper button:hover {
+  background-color: rgba(17, 255, 17, 0.585);
+}
+
+.Modal {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modalContent {
+  background-color: white;
+  border-radius: 6px;
+  height: 4rem;
+  width: 20rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.column.drop {
+  border: dashed white 4px
+}
